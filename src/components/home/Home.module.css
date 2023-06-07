@@ -1,0 +1,24 @@
+.headerOne{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem
+  }
+  
+  .headerTwo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+  }
+
+  h1{
+    font-size: 2.25rem
+  }

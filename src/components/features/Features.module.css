@@ -1,0 +1,98 @@
+.table{
+ width: 100%;
+ margin-top: 1.1rem!important;
+ vertical-align: middle!important;
+ margin-bottom: 1rem;
+}
+
+table thead tr th{
+text-align: left; 
+font-size: 1.25rem;
+padding-bottom: 20px;
+}
+
+.table > :not(:first-child) {
+    border-top: 2px solid;
+}
+
+table{
+    width: 100%;
+}
+table tbody tr td{
+
+    vertical-align: middle;
+
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem;
+    background-color: transparent;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px transparent;
+
+}
+th {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+}
+th {
+    text-align: inherit;
+    text-align: -webkit-match-parent;}
+
+tbody, td, th, thead, tr {
+    border: 0 solid;
+    border-color: inherit;
+}
+
+*, :after, :before {
+        box-sizing: border-box;
+    }
+td{
+    display: table-cell;
+    vertical-align: inherit;
+    }
+
+table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+}
+img, svg {
+    vertical-align: middle;
+    margin: 8px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.table tbody tr td img {
+    height: 40px;
+    width: 40px;
+  }
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+@media(max-width: 1595px ){
+    .table{
+        width: 100%;
+        margin-top: 1.1rem!important;
+        vertical-align: middle!important;
+        margin-bottom: 1rem;
+        max-width: 1300px;
+
+       }
+}
